@@ -3,12 +3,14 @@ import { useEffect } from "react";
 import { useState } from "react";
 import { useParams } from "react-router-dom";
 import { getData } from "../utils";
+import { useNavigate } from "react-router-dom";
 const url =
   "https://raw.githubusercontent.com/mkatay/json_products/main/products";
 
 export const Product = () => {
   const [product, setProduct] = useState(null);
   const params = useParams();
+  const navigate=useNavigate()
   console.log(params);
   useEffect(() => {
     getData(url, setProduct, params.id);
@@ -48,7 +50,7 @@ export const Product = () => {
           <dt className="col-sm-3">Rating:</dt>
           <dd className="col-sm-9">{product?.rating}</dd>
         </dl>
-        <button className="btn btn-primary m-1">go back to all products</button>
+        <button className="btn btn-primary m-1" onClick={()=>navigate('/products')}>go back to all products</button>
       </div>
     </div>
   );
