@@ -1,0 +1,17 @@
+@import '../variable.scss';
+.about {
+  h3 {
+    border-width: 4px;
+    border-style: solid;
+    border-image: linear-gradient(to right, $color-from 0%, $color-to 100%) 0 0 100% 0;
+  }
+}
+/*0 0 100% 0: Ezek a részek a border-image tulajdonság további értékei:
+
+Az első 0 az "outset" (kitágítás) érték, ami azt határozza meg, mennyivel kell kitágítani a keretet. Itt nincs kitágítás (0).
+
+A második 0 az "slice" (vágás) értéke, ami azt mutatja, hogy a képből vagy gradientből milyen részt vágjunk ki. Itt nincs vágás (0).
+
+A harmadik 100% az "width" (szélesség) értéke, ami megadja a keret szélességét a teljes elem szélességéhez viszonyítva. Ebben az esetben a keret szélessége a teljes elem szélességével megegyezik (100%).
+
+A negyedik 0 az "repeat" értéke, ami azt határozza meg, hogyan kell ismételni a keretképet a keret teljes hossza mentén. Itt nincs ismétlés (0).*/
