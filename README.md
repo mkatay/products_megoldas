@@ -82,4 +82,4 @@ Hozz létre egy **SingleProduct.jsx** komponenst és abban valósítsd meg a ter
   
 ### 6.feladat- OOP(megvalósítva a 3.feladat utolsó alpontjában)
 
-[deployed on Netlify](https://657a03251b1c1454e20d15fc--tangerine-eclair-bb2f21.netlify.app/#/)
+[deployed on Netlify](https://brilliant-crisp-ec4229.netlify.app/)
