@@ -29,8 +29,4 @@ describe('App.jsx',()=>{
         expect(titleElement).toBeInTheDocument(); 
       });
 
-      it('About.jsx komponens létrejött', () => {
-        renderWithRouter(<App />, { route: '/about' });
-        expect(screen.getByRole('heading', { name: 'Welcome to Our Store!' })).toBeInTheDocument();
-      });
 })

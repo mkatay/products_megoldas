@@ -40,7 +40,7 @@ A sikeres megoldás esetén minden teszt helyesen le fog futni.A tesztesetek fut
 - Készíts egy új komponenst amiben bemutatkozik a céged, a neve legyen **About.jsx**
 - egészítsd ki a menüt ezzel az új oldallal, valósítsd meg a routingolást is, hozz létre egy **about** route-t ennek a komponensnek
 - a megjelenítendő szöveget az **about.txt** fájlban találod, tagold a szöveget címsorokra és bekezdésekre
-- a megjelenítendő képet pedig az **assets** mappában:**about.jpg**
+- a megjelenítendő képeket pedig az **assets** mappában:**about1.jpg** és **about2.jpg**
 - Formázd meg az oldalt bootstrap (vagy ekvivalens keretrendszer) segítségével!
 - A kinézet körülbelül feleljen meg a mintának.
 
