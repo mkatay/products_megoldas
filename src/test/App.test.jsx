@@ -28,4 +28,9 @@ describe('App.jsx',()=>{
         const titleElement=screen.getByText(/Welcome to Our Store/i)
         expect(titleElement).toBeInTheDocument(); 
       });
+
+      it('About.jsx komponens létrejött', () => {
+        renderWithRouter(<App />, { route: '/about' });
+        expect(screen.getByRole('heading', { name: 'Welcome to Our Store!' })).toBeInTheDocument();
+      });
 })
